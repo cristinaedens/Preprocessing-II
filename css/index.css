@@ -171,7 +171,8 @@ img {
 header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin: 3% auto;
+  border-bottom: 1px dashed black;
 }
 .footer {
   width: 100%;
