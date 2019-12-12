@@ -5,8 +5,19 @@
   margin: 3% auto;
   justify-content: space-between;
   
+@media @phone{
+  flex-direction: column;
+}
+
   .div-head{
     width:20%;
+
+    @media @phone{
+      width:100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2%;
+    }
 }
 
 nav {
@@ -14,6 +25,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media @phone{
+    width:100%;
+    justify-content: center;
+    justify-content: space-around;
+  }
 }
 
 nav a{
@@ -22,5 +39,5 @@ nav a{
     color:black;
     font-weight: bold;
 }
-
 }
+
